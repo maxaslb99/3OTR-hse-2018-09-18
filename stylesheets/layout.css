@@ -45,13 +45,13 @@ h2+p{
 h3+p{
   margin-top: 30px;
 }
-h3{
+article h3{
   margin-top:40px;
   margin-top: 50;
 
   font-size: 28px;
 }
-a {
+article a {
   color: inherit;
 
   font-family: 'PT Sans', sans-serif;
@@ -72,7 +72,7 @@ body {
   margin-left: auto;
 }
 img {
-	display: blokc;
+  display: blokc;
 
 	width: 1020px;
 	margin: 90px auto 90px;
@@ -88,4 +88,35 @@ article h1, h2, h3, p {
 }
 nav ur li ul {
  color: gray;
+}
+article li {
+margin-bottom: 30px;
+
+font-family: "PT Sans Caption", sans-serif;
+font-size: 22px;
+line-height:32px;
+}
+nav {
+position:fixed;
+top:50px;
+left:50px;
+}
+article h1,h2,h3,p,{
+width: 700px;
+margin: 0 auto;
+}
+article img {
+display: block;
+
+width: 1000px;
+margin: 0 auto;
+}
+nav ul li ul {
+color: gray;
+}
+nav li {
+  margin-bottom: 20px;
+}
+nav>ul>li:first-of-type {
+  font-weight: bold;
 }
